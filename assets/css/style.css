@@ -9,28 +9,53 @@ body{
 
 }
 header {
-  	background: #d21034;
+  
+  background: white;
+  	
 }
-	
+
 h1 {
+	width: 70%;
 	padding: 20px 0;
-	margin: 0;
+	margin: 0 auto;
  	margin-bottom: 20px;
-	font-size: 28px;
+	font-size: 70px;
 	color: #eee;
 	text-align: center;
-	background: #333;
+	background: teal;
+	height: 70px;
+	float: left;
+	position: fixed; top: 0%; left: 0%;
+	
 }
+
+#topright {
+	
+	width: 30%;
+	float: left;
+	background: white;
+	height: 110px;
+	text-align: center;
+	font-size: 25px;
+	margin: 0 auto;
+	position: fixed; top: 0%; right: 0%;
+
+	
+	
+}
+
+
 	
 h2 {
-	font-size: 24px;
-}
-	
+	font-size: 30px;
+	text-align: left;
+}	
 a {
 	color: #d21034;
 }
 .container {
-	width: 1024px;
+	padding-top: 125px;
+	width: 960px;
  	margin: 0 auto;
 }
 	
@@ -38,18 +63,44 @@ a {
 #contact-info,
 #bio-image {
 	float: left;
+	text-align: left;
+	background: white;
+	margin:5px auto;
+	width: 270px;
 }
 
 #main-bio {
-	width: 70%;
+	width: 650px;
+
 }
 
 #contact-info {
-  	width: 30%;
+  	width: 270px;
+  	float: right;
+  	
 }
 
 #bio-image {
 	width: 200px;
 	height: 200px;
 	margin-right: 20px;
+}
+
+footer {
+  padding: 20px;
+  clear: both;
+  background: teal;
+  text-align: center;
+}
+input{
+	font-size: 40px;
+	width: 90%;
+}
+li {
+  list-style-type: none;
+  display: inline;
+
+  margin: 0;
+  padding: 0;
+
 }
