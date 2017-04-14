@@ -8,23 +8,28 @@ body{
   	background: #efeee7;
 
 }
+.Alex{
+	padding-left: 25px;
+	padding-right: 25px;
+
+}
 header {
   
   background: white;
-
-
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 100%;
   	
 }
 
 #topleft {
-	width: 70%;
+	width: 16.5%;
 	padding: 20px 0;
 	margin: 0 auto;
  	margin-bottom: 20px;
 	font-size: 70px;
 	color: #0c0c0c;
 	text-align: center;
-	background: teal;
+	background: #FFFAF0;
 	height: 70px;
 	float: left;
 	position: fixed; top: 0%; left: 0%;
@@ -34,13 +39,29 @@ header {
 	
 }
 
+#middle {
+	width: 32%;
+	padding: 20px 0;
+	margin: 0 auto;
+ 	margin-bottom: 20px;
+	font-size: 70px;
+	color: #0c0c0c;
+	text-align: center;
+	background: teal;
+	height: 70px;
+	float: left;
+	position: fixed; top: 0%; left: 16.5%;
+	border-style: solid;
+  	border-width: medium;
+}
+
 #topright {
 	
-	width: 30%;
+	width: 51.5%;
 	float: left;
 	background: #FFFAF0;
 	height: 110px;
-	text-align: center;
+	text-align: right;
 	font-size: 25px;
 	margin: 0 auto;
 	position: fixed; top: 0%; right: 0%;
@@ -72,6 +93,7 @@ a {
 	width: 270px;
 	border-style: solid;
     border-width: medium;
+    font-family: “Century Gothic”, CenturyGothic, AppleGothic, sans-serif;
 }
 
 #main-bio {
@@ -109,5 +131,9 @@ li {
   display: inline;
   margin: 0;
   padding: 0;
+
+}
+h1{
+	font-family: 'Satisfy', cursive;
 
 }
